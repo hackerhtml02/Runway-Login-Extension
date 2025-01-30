@@ -4,11 +4,11 @@
   "version": "2.0",
   "permissions": [
     "activeTab",
-    "https://ideogram.ai/*"
+    "https://app.runwayml.com/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://ideogram.ai/*"],
+      "matches": ["https://app.runwayml.com/*"],
       "js": ["content.js"]
     }
   ],
